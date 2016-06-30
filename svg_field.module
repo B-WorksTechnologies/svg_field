@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains svg_field.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function svg_field_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the svg_field module.
+    case 'help.page.svg_field':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('SVG Field integration') . '</p>';
+      return $output;
+
+    default:
+  }
+}

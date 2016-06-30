@@ -1,1 +1,5 @@
-name = SVG field
+name: SVG Field
+type: module
+description: SVG Field integration
+core: 8.x
+package: Image
