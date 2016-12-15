@@ -22,7 +22,7 @@ use Drupal\Core\StreamWrapper\StreamWrapperInterface;
  *   label = @Translation("SVG"),
  *   description = @Translation("SVG Field Field Type"),
  *   default_widget = "svg_field_widget",
- *   default_formatter = "svg_field_formatter"
+ *   default_formatter = "svg_field_formatter",
  *   constraints = {"ReferenceAccess" = {}, "FileValidation" = {}}
  * )
  */
